@@ -1,0 +1,30 @@
+:root {
+    --primario: #F5F5F5;
+    --secundario: #77767C;
+    --primarioHeader: #122C39;
+    --secundarioHeader: #17A6AB;
+    --anunncio: #C50D0D;
+
+
+    --fuenteHeader: 'Saira Stencil One', cursive;
+    --fuentePrincipal: 'Aldrich', sans-serif;
+    --fuenteParrafo: 'Archivo Narrow', sans-serif;
+    --fuenteTitulo: 'Racing Sans One', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10 px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* Globales */
+a {
+    text-decoration: none;
+}
