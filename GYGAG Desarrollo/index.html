@@ -11,32 +11,49 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>GYGAG</h1>
-        <h3>De tu mente a la pantalla</h3>
+   
+    <div class="barra">
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">GYGAG</h1>
+                <h3 class="logo__nombre no-margin centrar-texto">De tu mente a la pantalla</h3>
+            </a>
+        <nav class="navegacion">
+            <a href="index.html" class="navegacion__enlace">Home</a>
+            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="clientes.html" class="navegacion__enlace">Clientes</a>
+            <a href="blog.html" class="navegacion__enlace">Blog</a>
+            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+        </nav>
+    </div>
+    
+    <header class="header">
+        <div class="header__texto centrar">
+             <h2 class="no-margin ">Desarrollamos tu página web para hacer crecer tu marca y llegar más lejos</h2>
+         </div>
+                
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="clientes.html">Clientes</a>
-        <a href="blog.html">Blog</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
     <main>
-        <img src="img/1.jpg" alt="imagen home">
-        <h1>Desarrollamos tu página web para hacer crecer tu marca y llegar más lejos</h1>
-        <div>
-            <h2>El mejor equipo de diseño y desarrollo de páginas web</h2>
-            <p>Integrado por Diseñadores Gráficos, Programadores, Mercadólogos, Publicistas, Especialistas, Consultores, Ingenieros Informáticos, Fotógrafos & Expertos en Redes Sociales. Tu proyecto de Diseño de Paginas web y Desarrollo Web está a salvo con nosotros.</p>
+        <div class="contenido__principal">
+            <h2 class="centrar letra__racing">El mejor equipo de diseño y desarrollo de páginas web</h2>
+            <p class="letra__aldrich centrar-texto">Integrado por Diseñadores Gráficos, Programadores, Mercadólogos, Publicistas, Especialistas, Consultores, Ingenieros Informáticos, Fotógrafos & Expertos en Redes Sociales. Tu proyecto de Diseño de Paginas web y Desarrollo Web está a salvo con nosotros.</p>
         </div>
-        <div>
-            <img src="img/2.jpg" alt="desarrollo web">
-            <h4>Desarrollo Web</h4>
-            <img src="img/3.jpg" alt="diseño web">
-            <h4>Diseño Web</h4>
-            <img src="img/4.jpg" alt="Ecommerce">
-            <h4>E-Commerce</h4>
-        </div>
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/2.jpg" alt="desarrollo web">
+                <h4 class="bloque__titulo">Desarrollo Web</h4>
+            </div><!--.bloque-->
+            
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/3.jpg" alt="diseño web">
+                <h4 class="bloque__titulo">Diseño Web</h4>
+            </div><!--.bloque-->
+            
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/4.jpg" alt="Ecommerce">
+                <h4 class="bloque__titulo">E-Commerce</h4>
+            </div>
+        </div> <!--.bloque-->
+       
     </main>
     <footer>
         <p>Todos los derechos reservados-GYGAG 2022</p>
