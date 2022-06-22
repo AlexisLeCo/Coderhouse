@@ -92,6 +92,7 @@ a {
 .bloque img {
     height: 300px;
     width: 400px;
+    box-shadow: 0px 0px 4px gray;
 }
 
 .footer {
@@ -111,6 +112,7 @@ a {
 .contenido__nosotros img {
     width: 50%;
     border-radius: 30px;
+    box-shadow: 0px 0px 5px grey;
 }
 .contenido__nosotros p {
     font-size: 30px;
@@ -142,9 +144,10 @@ a {
     padding: 25px;
 }
 .bloque__cliente img {
-    height: 300px;
+    height: 400px;
     width: 400px;
     border-radius: 800px;
+    box-shadow: 3px 3px 10px aqua;
 }
 
 .bloque__cliente p {
