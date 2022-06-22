@@ -24,9 +24,11 @@ a {
     font-size: 18px;
     padding: 15px;
     color: white;
+    transition: all 300ms;
 }
 .navegacion__enlace:hover {
     color:aqua;
+    transform: scale(1.2, 1.2);
 }
 .header {
     background-image: url(../img/Blog.jpg);
@@ -36,7 +38,6 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
 
 .header__texto {
     margin: 0;
@@ -87,6 +88,7 @@ a {
 .bloque img {
     height: 300px;
     width: 400px;
+    box-shadow: 0px 0px 4px gray;
 }
 .footer {
     background-color: #122C39;
@@ -134,9 +136,10 @@ a {
     padding: 25px;
 }
 .bloque__cliente img {
-    height: 300px;
+    height: 400px;
     width: 400px;
     border-radius: 800px;
+    box-shadow: 3px 3px 10px aqua;
 }
 .bloque__cliente p {
     margin-top: 20px;
